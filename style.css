@@ -1,0 +1,65 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin:0; padding:0; background:#f5f5f8; color:#333;
+  }
+  header, footer {
+    background: #004080; color: white; text-align: center; padding: 12px 10px;
+  }
+  nav a {
+    color: white; margin: 0 10px; text-decoration: none;
+    font-weight: bold;
+  }
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  h1, h2 {
+    margin-bottom: 12px;
+  }
+  input[type=text], input[type=email], select, textarea {
+    width: 100%; padding: 8px; margin: 6px 0 12px 0; border-radius: 4px; border: 1px solid #bbb;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #004080; color: white; padding: 10px 16px;
+    border: none; border-radius: 4px; cursor: pointer;
+  }
+  button:hover {
+    background-color: #002c59;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin-top: 12px;
+  }
+  th, td {
+    padding: 8px; border: 1px solid #ccc; text-align: left;
+  }
+  .bookmark-btn {
+    background: #f0ad4e; color: black; border: none; padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .bookmark-btn:hover {
+    background: #ec971f;
+  }
+  #bookmarksList li {
+    background: #e9f0ff; margin: 4px 0; padding: 6px; border-radius: 4px;
+  }
+  #pollResults {
+    white-space: pre-line;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .chat-box, #breakoutChatBox {
+    border: 1px solid #ccc; background: #fafafa;
+    height: 150px; overflow-y: auto; padding: 8px; border-radius: 4px;
+    margin-top: 10px;
+  }
+  @media (max-width: 600px) {
+    body { padding: 0 10px; }
+  }
